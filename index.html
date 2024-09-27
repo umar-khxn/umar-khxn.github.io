@@ -1,0 +1,324 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar Khan Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a80abe2edf.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Project Experience</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Header Text -->
+            <div class="header-text">
+                <h1>Hi, I'm <span>Umar Khan</span></h1>
+                <br>
+                <p>Aspiring Intern</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/umar-khan2004-/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/umar-khxn" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="about-me">
+                <h1>About Me</h1>
+                <br>
+                <p>
+                    I am a third-year student studying Computer Science with a specialization in
+                    Mathematics and Analytics at Queen's University at Kingston, ON.
+                    I am currently searching for an internship oppurtunity to apply my skills and
+                    gain experience.
+                </p>
+            </div>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+                <p class="tab-links" onclick="opentab('achievements')"><b>Academic Acheivements</b></p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+
+                <div class="row">
+
+                    <section class="col">
+
+                        <div class="skill-container">
+
+                            <div class="skill">
+                                <div class="skill-name">HTML5</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="90%" style="max-width:90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">CSS</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="80%" style="max-width:80%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">Javascript</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="50%" style="max-width: 50%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+
+                    <section class="col">
+
+                        <div class="skill-container">
+
+                            <div class="skill">
+                                <div class="skill-name">Python</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="95%" style="max-width:95%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">Java</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="95%" style="max-width:95%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="skill-name">MySQL</div>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="50%" style="max-width:50%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+                </div>
+                <br><br>
+                <p>
+                    Skilled in NumPy, Pandas, and PyTorch for machine learning. As well as, HTML5, CSS, and Javascript
+                    for website design.
+                </p>
+
+            </div>
+
+
+            <div class="tab-contents" id="education">
+
+                <div class="school-info">
+                    <div class="school">
+                        <h4>Queen's University</h4>
+                    </div>
+                    <div class="loco">
+                        <p><b>Kingston, ON</b></p>
+                    </div>
+                </div>
+
+                <div class="major">
+                    <div class="degree">
+                        <p><i>Bachelors of Computer Science Honours (BCompH)</i></p>
+                        <p>Computer Science, Mathematics, and Analytics (COMA-I-BCH)</p>
+                    </div>
+                    <div class="grad">
+                        <p>Expected Graduation: 2026</p>
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <br>
+                    <p><b>Relevant Courses: </b>Operating Systems, Data Structures, Computer Architecture,
+                        Group Theory, Advanced Calculus, Applied Methods in Statistics</p>
+                </div>
+
+            </div>
+
+
+            <div class="tab-contents" id="achievements">
+                <p><b>Dean's Honours List Member: </b>4.07/4.3 Cumulative GPA</p>
+                <p>
+                <ul>
+                    <li>
+                        Maintained a competitive academic standing with a full course
+                        load of university-level mathematics and computer science courses.
+                    </li>
+                    <li>
+                        Worked as a tutor for high school students in mathematics courses including in Advanced
+                        Functions and Calculus & Vectors.
+                    </li>
+                </ul>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Projects -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/img1.png">
+                    <div class="layer">
+                        <h3>Bad Ice Cream Game</h3>
+                        <h4>Java</h4>
+                        <p>
+                            A remake of the popular game of the same name. Making use of threads and
+                            object-oriented programming to create a fast-pased, multi-level game for users.
+                        </p>
+                        <a href="https://github.com/umar-khxn/bad-icecream" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img2.png">
+                    <div class="layer">
+                        <h3>President 2.0</h3>
+                        <h4>Java</h4>
+                        <p>
+                            A console game similar to the card game "President". This project features a strong
+                            CPU logic design, as well as object-oriented programming for efficiency.
+                        </p>
+                        <a href="https://github.com/umar-khxn/president2.0-cardgame" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/img3.png">
+                    <div class="layer">
+                        <h3>Wall Street Guess</h3>
+                        <h4>HTML5/CSS</h4>
+                        <p>
+                            A game that allows users to predict the rise and fall of stocks. With the use of the
+                            finnhub.io API and a LLM, an AI model will also analyze real-time stock data to forecast
+                            behaviour.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Resume Download -->
+    <div id="resume">
+        <div class="container">
+            <h1>My Resume</h1>
+            <p>
+                Download my resume below :
+            </p>
+            <div class="download">
+                <a href="images/Umar Khan Resume.pdf" download class="btn btn3">Download Resume <i
+                        class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>umar.khan0406@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>(647)-762-9797</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/umar-khan2004-/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/umar-khxn" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxEmozKX7UIwYO-dUI9hvR1XNH1JIYLejVAkSFuez8UbnfpH7vBYiOxJNeYkdqg5c9v/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
